@@ -1,4 +1,6 @@
     
+        监控程序接入文档说明
+        
         随着互联网的快速发展，用户在网上差生了很多购买行为，但是很多场景都需要在现场来完成购买物品的提取
   例如：网上购票 火车站提票，网上购买电影票在电影院提票，网上购物，如果人没在家，快递可以临时存放在速递易，
   可以看出，互联网的繁荣也带来了线下自助终端机昌盛，那么问题了，这么多分布在不同地方的自助终端机，其中有
@@ -28,11 +30,11 @@
   
   注意点5：程序端口处理类，必须继承AbstractSocketHandler
   
-  // web接收到那台设备发送的消息
-  @Override
+  	// web接收到那台设备发送的消息
+  	@Override
 	public abstract void onMessage(String deviceCode, String message);
 
-  // 哪台设备终端已经下线了
+  	// 哪台设备终端已经下线了
 	@Override
 	public abstract void onCLose(String deviceCode);
 	
