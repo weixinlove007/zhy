@@ -9,11 +9,6 @@
 
 1.第一步： 在主工程POM添加依赖文件
 ```
-        <dependency>
-           <groupId>com.aeye</groupId>
-           <artifactId>pam-facade</artifactId>
-           <version>0.0.1-SNAPSHOT</version>
-       </dependency>
        <dependency>
            <groupId>com.caucho</groupId>
            <artifactId>hessian</artifactId>
