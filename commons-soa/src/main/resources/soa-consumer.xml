@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service-consumer>
+
+	<module name="test">
+		<clusters>
+			<address value="http://127.0.0.1:7001/" />
+			<address value="http://127.0.0.1:7001/" />
+		</clusters>
+		<service name="验证应用帐号" logLever="error" version="">
+			<service-intf value="org.commons.soa.TestService" />
+		</service>
+	</module>
+	
+	<module name="交换平台">
+		<clusters>
+			<address value="http://127.0.0.1:7001/" />
+			<address value="http://127.0.0.1:7001/" />
+		</clusters>
+		<service name="验证应用帐号" logLever="error" version="">
+			<service-intf value="org.commons.soa.TestService" />
+		</service>
+	</module>	
+
+</service-consumer>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<service-producer>
+
+	<module name="test">
+		<service name="验证应用帐号" logLever="error" version="">
+			<service-impl value="org.commons.soa.TestServiceImpl" />
+			<service-intf value="org.commons.soa.TestService" />
+		</service>
+
+		<service name="验证应用帐号" logLever="error" version="2.0">
+			<service-impl value="org.commons.soa.TestServiceImpl" />
+			<service-intf value="org.commons.soa.TestService" />
+		</service>
+	</module>
+
+</service-producer>
